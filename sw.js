@@ -1,6 +1,6 @@
 'use strict';
-const CACHE='exp-lab-v1-2.2.23';
-const SHELL=['./','./index.html','./app.js','./engine.js','./data.js','./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('exp-lab-v1-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));
-self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const url=new URL(r.url);if(r.mode==='navigate'){e.respondWith(fetch(r).then(resp=>{if(resp.ok){const clone=resp.clone();e.waitUntil(caches.open(CACHE).then(c=>c.put('./index.html',clone)).catch(()=>{}));}return resp;}).catch(()=>caches.match('./index.html')));return;}if(url.origin===self.location.origin)e.respondWith(caches.match(r).then(hit=>hit||fetch(r)));});
+const CACHE='exp-lab-v2-2.2.23-shell-1';
+const SHELL=['./','./index.html','./app.js','./engine.js','./data.js','./database-hero.js','./manifest.webmanifest'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(async c=>{await c.addAll(SHELL);await Promise.all(['./icon-180.png','./icon-192.png','./icon-512.png'].map(x=>c.add(x).catch(()=>{})));}).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('exp-lab-')&&k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()])));
+self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET')return;const u=new URL(r.url);if(r.mode==='navigate'){e.respondWith(fetch(r).then(resp=>{if(resp.ok){const copy=resp.clone();e.waitUntil(caches.open(CACHE).then(c=>c.put('./index.html',copy)).catch(()=>{}));}return resp;}).catch(()=>caches.open(CACHE).then(c=>c.match('./index.html'))));return;}if(u.origin===self.location.origin||r.destination==='image')e.respondWith(caches.open(CACHE).then(async c=>{const hit=await c.match(r);if(hit)return hit;const resp=await fetch(r);if(resp.ok||resp.type==='opaque'){const copy=resp.clone();e.waitUntil(c.put(r,copy).catch(()=>{}));}return resp;}));});

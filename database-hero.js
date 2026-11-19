@@ -1,0 +1,3737 @@
+window.EXP_PROFILES={
+  "Aamon": {
+    "role": "assassin",
+    "threat": "Kamuflase dan pecahan mengejar target; burst meningkat saat pecahan terkumpul",
+    "mechanics": {
+      "dive": 2
+    },
+    "mobility": 2,
+    "escape": 3,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Akai": {
+    "role": "tank",
+    "threat": "Lompatan dan putaran mendorong hero EXP ke dinding; mengganggu tempo skill",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Koordinasikan putaran agar target tidak terdorong keluar jangkauan pull."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Biarkan Akai mengusir jungler lawan; Torrent menutup jalur masuk."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Aldous": {
+    "role": "fighter",
+    "threat": "Ultimate mengunci target dari jauh; pukulan stack mengancam terutama late",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 1,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.25,
+    "risks": [
+      "physical skill",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Downtime fase laning berkurang dan damage reduction late game meningkat."
+    },
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Alice": {
+    "role": "Tank / Mage",
+    "threat": "Orb teleport masuk formasi; drain area saat dekat",
+    "mechanics": {
+      "vamp": 3,
+      "magicDot": 3,
+      "regen": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "magic berulang",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Alpha": {
+    "role": "fighter",
+    "threat": "Lompatan airborne lalu serangan Beta berulang dan sustain",
+    "mechanics": {
+      "skillPhysical": 2,
+      "regen": 1,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Alucard": {
+    "role": "Fighter / Assassin",
+    "threat": "Lompatan dan lunge pasif mengejar target sambil lifesteal",
+    "mechanics": {
+      "vamp": 3,
+      "basic": 2,
+      "dive": 2,
+      "regen": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Angela": {
+    "role": "support",
+    "threat": "Dukungan global shield dan heal membuat diver lebih tahan",
+    "mechanics": {
+      "heal": 3,
+      "shield": 3
+    },
+    "mobility": 1,
+    "escape": 0,
+    "setup": 1,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "sustain duel"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal.",
+      "ally": "Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai.",
+      "ally": "Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Argus": {
+    "role": "fighter",
+    "threat": "Dash mendekat; ultimate menunda kematian",
+    "mechanics": {
+      "basic": 3,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Arlott": {
+    "role": "Fighter / Assassin",
+    "threat": "Dash ulang pada target bertanda CC; displacement area",
+    "mechanics": {
+      "skillPhysical": 2,
+      "dive": 3,
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Atlas": {
+    "role": "tank",
+    "threat": "Engage cepat dan tarikan area mengumpulkan tim",
+    "mechanics": {
+      "engage": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "NERF",
+      "summary": "Frigid Breath berlangsung lebih singkat dan jeda freeze lebih lama, tetapi bonus Physical dan Magic Defense meningkat."
+    },
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Aulus": {
+    "role": "fighter",
+    "threat": "Kecepatan gerak dan basic attack berskala late",
+    "mechanics": {
+      "skillPhysical": 2
+    },
+    "mobility": 1,
+    "escape": 1,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 1,
+    "risks": [
+      "physical skill"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Aurora": {
+    "role": "mage",
+    "threat": "Freeze area dan burst mengganggu tempo skill dari jarak jauh",
+    "mechanics": {
+      "magicBurst": 3,
+      "hardCC": 3
+    },
+    "mobility": 0,
+    "escape": 3,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "magic burst",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Badang": {
+    "role": "fighter",
+    "threat": "Dash membentuk dinding dan rentetan pukulan mengunci target",
+    "mechanics": {
+      "skillPhysical": 2,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Balmond": {
+    "role": "fighter",
+    "threat": "Dash pendek, putaran dan execute HP rendah",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1
+    },
+    "mobility": 1,
+    "escape": 1,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 1,
+    "risks": [
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Bane": {
+    "role": "Fighter / Mage",
+    "threat": "Poke proyektil, heal sendiri dan gelombang hiu mendorong",
+    "mechanics": {
+      "magicBurst": 2,
+      "skillPhysical": 2,
+      "regen": 1
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 1,
+    "risks": [
+      "physical skill",
+      "magic burst"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan engage sampai kombo magic lawan keluar.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan transformasi di depan burst yang masih tersedia.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Barats": {
+    "role": "Tank / Fighter",
+    "threat": "Tubuh besar dan kuncian ultimate mengancam dari dekat",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 2,
+      "skillPhysical": 1,
+      "regen": 1
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 2,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Baxia": {
+    "role": "tank",
+    "threat": "Berguling cepat dari jalur samping; antiheal bawaan",
+    "mechanics": {
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 1,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Beatrix": {
+    "role": "marksman",
+    "threat": "Dash pendek dan beberapa senjata dengan pola burst berbeda",
+    "mechanics": {
+      "skillPhysical": 2,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Belerick": {
+    "role": "tank",
+    "threat": "Taunt area memaksa target menyerang, pantulan basic attack",
+    "mechanics": {
+      "hardCC": 2,
+      "basicPunish": 3
+    },
+    "mobility": 1,
+    "escape": 1,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Benedetta": {
+    "role": "Assassin / Fighter",
+    "threat": "Dash berturut dan parry menghindari stun",
+    "mechanics": {
+      "dive": 3,
+      "skillPhysical": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 0.45,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Brody": {
+    "role": "marksman",
+    "threat": "Stun jarak menengah dan ultimate berbasis mark",
+    "mechanics": {
+      "skillPhysical": 3,
+      "basic": 2,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 1,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 1,
+    "risks": [
+      "physical skill",
+      "basic attack",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Bruno": {
+    "role": "marksman",
+    "threat": "Dash dan bola burst; ultimate mengganggu formasi",
+    "mechanics": {
+      "basic": 3,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 2,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Carmilla": {
+    "role": "Support / Tank",
+    "threat": "Link menyebarkan damage dan CC; mendekat untuk mengikat",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 2,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Cecilion": {
+    "role": "mage",
+    "threat": "Poke jarak jauh berskala mana dan tarikan area",
+    "mechanics": {
+      "magicBurst": 2,
+      "magicDot": 2,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic burst",
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Chang'e": {
+    "role": "mage",
+    "threat": "Kecepatan dan shield mendukung rentetan proyektil jarak jauh",
+    "mechanics": {
+      "magicDot": 3
+    },
+    "mobility": 1,
+    "escape": 0,
+    "setup": 0,
+    "peel": 0,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Chip": {
+    "role": "Support / Tank",
+    "threat": "Portal mengubah akses tim musuh dengan cepat",
+    "mechanics": {
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.25,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Chou": {
+    "role": "fighter",
+    "threat": "Dash, immunity sesaat dan tendangan memisahkan hero EXP",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 2,
+      "skillPhysical": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Cici": {
+    "role": "fighter",
+    "threat": "Gerak sambil menyerang dan lompatan membantu mengejar",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Claude": {
+    "role": "marksman",
+    "threat": "Teleport bayangan dan ultimate area; akses tergantung posisi bayangan",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Clint": {
+    "role": "marksman",
+    "threat": "Dash mundur dan poke basic attack jarak panjang",
+    "mechanics": {
+      "skillPhysical": 2,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Cyclops": {
+    "role": "mage",
+    "threat": "Ultimate lock jarak jauh dan spam orb",
+    "mechanics": {
+      "magicBurst": 2
+    },
+    "mobility": 1,
+    "escape": 1,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 1,
+    "risks": [
+      "magic burst"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar.",
+      "ally": "Tarik target setelah immobilize Cyclops; bantu lindungi jungler saat objektif."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia.",
+      "ally": "Torrent menghalangi akses ke Cyclops; Thunder mengejar target yang ia kunci."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Diggie": {
+    "role": "support",
+    "threat": "Bom dan tarik balik; ultimate membebaskan CC tim",
+    "mechanics": {
+      "antiEngage": 3,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 0,
+    "setup": 1,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Cleanse mendukung engage Ruby; tidak mengatasi suppression."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Cleanse membantu masuk Torrent; jangan mengandalkannya melawan suppression."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Dyrroth": {
+    "role": "fighter",
+    "threat": "Dash dan pengurangan physical defense diikuti burst",
+    "mechanics": {
+      "skillPhysical": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Edith": {
+    "role": "Tank / Marksman",
+    "threat": "Charge dan lempar target lalu mode marksman magic",
+    "mechanics": {
+      "basic": 2,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Esmeralda": {
+    "role": "Tank / Mage",
+    "threat": "Kecepatan, shield dan lompatan ultimate ke formasi",
+    "mechanics": {
+      "shield": 3,
+      "regen": 2,
+      "magicDot": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "magic berulang",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Estes": {
+    "role": "support",
+    "threat": "Heal area membuat pertarungan panjang menguntungkan timnya",
+    "mechanics": {
+      "heal": 3
+    },
+    "mobility": 0,
+    "escape": 0,
+    "setup": 0,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "sustain duel"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal.",
+      "ally": "Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai.",
+      "ally": "Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Eudora": {
+    "role": "mage",
+    "threat": "Stun target dan burst magic dari semak",
+    "mechanics": {
+      "magicBurst": 3,
+      "hardCC": 2
+    },
+    "mobility": 0,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic burst",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Fanny": {
+    "role": "assassin",
+    "threat": "Kabel lintas dinding, serangan cepat dan sudut masuk tak biasa",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 0,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Faramis": {
+    "role": "Support / Mage",
+    "threat": "Tarikan dan perlindungan kematian sementara tim",
+    "mechanics": {
+      "magicBurst": 1,
+      "heal": 2,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Floryn": {
+    "role": "support",
+    "threat": "Heal global menyelamatkan target jauh, stun proyektil",
+    "mechanics": {
+      "heal": 3,
+      "hardCC": 2
+    },
+    "mobility": 0,
+    "escape": 0,
+    "setup": 2,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "sustain duel",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Franco": {
+    "role": "tank",
+    "threat": "Hook dari jarak jauh dan suppression dekat",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 2
+    },
+    "mobility": 1,
+    "escape": 3,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Fredrinn": {
+    "role": "Fighter / Tank",
+    "threat": "Taunt dan airborne berulang; balasan burst dari energi",
+    "mechanics": {
+      "regen": 2,
+      "skillPhysical": 2,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Freya": {
+    "role": "fighter",
+    "threat": "Lompatan, shield dan pukulan berulang saat dekat",
+    "mechanics": {
+      "regen": 2,
+      "basic": 3,
+      "shield": 2,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Skill di luar ultimate lebih kuat dengan pemulihan HP dari Sacred Orb; ultimate lebih jarang tersedia karena cooldown lebih panjang."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Gatotkaca": {
+    "role": "Tank / Fighter",
+    "threat": "Lompatan area jarak jauh dan taunt",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Gloo": {
+    "role": "tank",
+    "threat": "Attach dan immobilize mengganggu formasi",
+    "mechanics": {
+      "regen": 2,
+      "magicDot": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "magic berulang",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "NERF",
+      "summary": "Kekuatan CC dan damage dikurangi dalam patch live; tetap memiliki tekanan attach dan sustain."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Gord": {
+    "role": "mage",
+    "threat": "Stun bola, area multi-hit dan laser; pasif true damage",
+    "mechanics": {
+      "magicDot": 3,
+      "hardCC": 2
+    },
+    "mobility": 0,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Tarik target ke area skill Gord; lindungi jalur laser dari diver."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Torrent mengunci target dalam area Gord; Thunder mengejar carry yang keluar."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Granger": {
+    "role": "marksman",
+    "threat": "Dash dan tembakan burst jarak jauh",
+    "mechanics": {
+      "skillPhysical": 3,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 2,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Grock": {
+    "role": "Tank / Fighter",
+    "threat": "Charge dan dinding membatasi jalur keluar",
+    "mechanics": {
+      "skillPhysical": 2,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Guinevere": {
+    "role": "fighter",
+    "threat": "Lompatan knockup dilanjutkan ultimate",
+    "mechanics": {
+      "skillPhysical": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Gusion": {
+    "role": "assassin",
+    "threat": "Dash dan pisau kembali menghasilkan burst dekat",
+    "mechanics": {
+      "magicBurst": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 0,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "magic burst",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Hanabi": {
+    "role": "marksman",
+    "threat": "Pantulan basic attack dan shield anti-CC bersyarat",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 2,
+      "shield": 2
+    },
+    "mobility": 1,
+    "escape": 0,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 1,
+    "risks": [
+      "basic attack"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Hanzo": {
+    "role": "assassin",
+    "threat": "Proyeksi menyerang dari jauh sementara tubuh terpisah",
+    "mechanics": {
+      "dive": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Harith": {
+    "role": "mage",
+    "threat": "Dash berulang dan shield membuat target sulit ditahan",
+    "mechanics": {
+      "magicBurst": 2,
+      "shield": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "magic burst",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Harley": {
+    "role": "Assassin / Mage",
+    "threat": "Blink masuk, tanda ledakan dan kartu lalu kembali",
+    "mechanics": {
+      "magicBurst": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 0,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "magic burst",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Hayabusa": {
+    "role": "assassin",
+    "threat": "Bayangan untuk masuk dan keluar; ultimate menghindari targetability",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 0,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Helcurt": {
+    "role": "assassin",
+    "threat": "Ambush dari kabut/semak dan burst dengan gangguan kontrol",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Hilda": {
+    "role": "fighter",
+    "threat": "Sprint semak, regen dan pukulan target dekat",
+    "mechanics": {
+      "skillPhysical": 2,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.9,
+    "risks": [
+      "physical skill",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Hirara": {
+    "role": "assassin",
+    "threat": "Kombo fan dan dash; invulnerability situasional",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Hylos": {
+    "role": "tank",
+    "threat": "Jalur ultimate mempercepat engage, stun dekat dan slow aura",
+    "mechanics": {
+      "regen": 1,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 2,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Irithel": {
+    "role": "marksman",
+    "threat": "Menembak sambil bergerak dan lompatan ultimate",
+    "mechanics": {
+      "basic": 3
+    },
+    "mobility": 2,
+    "escape": 1,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Ixia": {
+    "role": "marksman",
+    "threat": "Zona tembakan area dan tarikan; posisi ulti relatif tetap",
+    "mechanics": {
+      "basic": 3,
+      "hardCC": 2
+    },
+    "mobility": 0,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "basic attack",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Jawhead": {
+    "role": "fighter",
+    "threat": "Lock mendekat dan lemparan menggeser target",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 2,
+      "skillPhysical": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Johnson": {
+    "role": "tank",
+    "threat": "Mobil global membawa penumpang dan stun tabrakan",
+    "mechanics": {
+      "hardCC": 3
+    },
+    "mobility": 3,
+    "escape": 1,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.45,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Joy": {
+    "role": "assassin",
+    "threat": "Dash ritmis dan burst area; resistensi situasional",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Julian": {
+    "role": "Assassin / Fighter",
+    "threat": "Skill enhanced memberi dash, burst atau CC area",
+    "mechanics": {
+      "dive": 2,
+      "skillPhysical": 3,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Kadita": {
+    "role": "Mage / Assassin",
+    "threat": "Gelombang masuk dengan immunity situasional, knockup dan burst",
+    "mechanics": {
+      "magicBurst": 3,
+      "engage": 3,
+      "hardCC": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.9,
+    "risks": [
+      "magic burst",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Kagura": {
+    "role": "mage",
+    "threat": "Payung berpindah, cleanse dan tarikan/burst jarak menengah",
+    "mechanics": {
+      "magicBurst": 3,
+      "dive": 2,
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.45,
+    "risks": [
+      "magic burst",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "ADJUST",
+      "summary": "Indikator jarak maksimum Seimei Umbrella lebih jelas; bukan buff statistik combat."
+    },
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Kaja": {
+    "role": "support",
+    "threat": "Mobilitas Soaring dan restriksi area menurut data patch",
+    "mechanics": {
+      "hardCC": 3,
+      "engage": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Soaring lebih mobile; area ultimate memberi waktu lawan menghindar, tetapi control immunity tidak bisa mengabaikan restriksi area."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Kalea": {
+    "role": "Support / Fighter",
+    "threat": "Heal melalui zona air, knockup dan lemparan",
+    "mechanics": {
+      "skillPhysical": 1,
+      "heal": 2,
+      "regen": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Karina": {
+    "role": "assassin",
+    "threat": "Dash target dan execute; perlindungan basic attack bukan imun skill",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Karrie": {
+    "role": "marksman",
+    "threat": "Dash pendek, kiting dan true damage terhadap HP tebal",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "ADJUST",
+      "summary": "Ultimate lebih kuat untuk pertarungan/kiting; Skill 1 lebih menekankan slow dan pengaturan posisi target."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Khaleed": {
+    "role": "fighter",
+    "threat": "Gerak pasir, heal dan ultimate engage",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Khufra": {
+    "role": "tank",
+    "threat": "Lompatan jauh dan interupsi dash melalui bola",
+    "mechanics": {
+      "engage": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Kimmy": {
+    "role": "Marksman / Mage",
+    "threat": "Tembakan sambil bergerak dan poke jarak jauh",
+    "mechanics": {
+      "magicDot": 2,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "magic berulang",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lancelot": {
+    "role": "assassin",
+    "threat": "Dash reset dan invulnerability singkat pada kombo",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lapu-Lapu": {
+    "role": "fighter",
+    "threat": "Lompatan transformasi dan CC area beruntun",
+    "mechanics": {
+      "skillPhysical": 2,
+      "regen": 1,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Layla": {
+    "role": "marksman",
+    "threat": "Jangkauan basic attack meningkat dan laser jarak jauh",
+    "mechanics": {
+      "basic": 3
+    },
+    "mobility": 1,
+    "escape": 0,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 1,
+    "risks": [
+      "basic attack"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Leomord": {
+    "role": "fighter",
+    "threat": "Kuda memberi mobilitas dan tekanan area",
+    "mechanics": {
+      "skillPhysical": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lesley": {
+    "role": "Marksman / Assassin",
+    "threat": "Kamuflase, true damage crit dan tembakan ultimate",
+    "mechanics": {
+      "dive": 1,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Ling": {
+    "role": "assassin",
+    "threat": "Tembok mengabaikan jalur biasa; ultimate airborne dan invulnerability",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3,
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lolita": {
+    "role": "Support / Tank",
+    "threat": "Shield menghadapi proyektil dan ultimate area stun",
+    "mechanics": {
+      "hardCC": 3,
+      "shield": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lukas": {
+    "role": "fighter",
+    "threat": "Transformasi beast, charge dan CC area",
+    "mechanics": {
+      "regen": 2,
+      "skillPhysical": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "ADJUST",
+      "summary": "Base damage naik dan scaling Physical Attack turun untuk memperkuat build fighter defensif."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Lunox": {
+    "role": "mage",
+    "threat": "Burst chaos dan mode cahaya kebal damage sementara",
+    "mechanics": {
+      "vamp": 2,
+      "magicBurst": 3,
+      "magicDot": 2,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "sustain duel",
+      "magic burst",
+      "magic berulang",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Tahan engage sampai kombo magic lawan keluar. Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Jangan transformasi di depan burst yang masih tersedia. Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Pasif konversi stat magic penetration/spell vamp disesuaikan; Chaos Skill 2 lebih kuat early-mid dan kontrol ultimate lebih responsif."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Luo Yi": {
+    "role": "mage",
+    "threat": "Reaksi Yin-Yang menarik target; teleport tim untuk flank",
+    "mechanics": {
+      "magicBurst": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.25,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Lylia": {
+    "role": "mage",
+    "threat": "Bom berulang dan reset posisi Black Shoes",
+    "mechanics": {
+      "magicDot": 3
+    },
+    "mobility": 2,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.25,
+    "risks": [
+      "magic berulang",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Marcel": {
+    "role": "support",
+    "threat": "Frozen Moment membekukan unit/proyektil menurut data lokal",
+    "mechanics": {
+      "hardCC": 3,
+      "shield": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Martis": {
+    "role": "fighter",
+    "threat": "CC beruntun dengan immunity saat skill dan execute reset",
+    "mechanics": {
+      "hardCC": 2,
+      "engage": 2,
+      "skillPhysical": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Masha": {
+    "role": "Fighter / Tank",
+    "threat": "Kecepatan, tekanan melee dan beberapa bar HP",
+    "mechanics": {
+      "regen": 1,
+      "basic": 3,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "NERF",
+      "summary": "Slow dipindahkan ke Skill 2; damage Skill 1/2 dan efektivitas serangan cakar turun, pemulihan/ketahanan tidak boleh diasumsikan setinggi versi sebelumnya."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Mathilda": {
+    "role": "Support / Assassin",
+    "threat": "Dash tim dan shield; ultimate mengejar target",
+    "mechanics": {
+      "shield": 2,
+      "dive": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.45,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Melissa": {
+    "role": "marksman",
+    "threat": "Dash, boneka penghubung damage dan barrier anti-melee",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Transfer damage dan warisan attack effect Skill 2 meningkat pada level tinggi dibanding awal; early dibuat lebih terkendali."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Minotaur": {
+    "role": "Tank / Support",
+    "threat": "Airborne area dan heal tim",
+    "mechanics": {
+      "heal": 2,
+      "engage": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Minsitthar": {
+    "role": "fighter",
+    "threat": "Hook dan zona pembatas dash",
+    "mechanics": {
+      "hardCC": 3,
+      "skillPhysical": 1
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Miya": {
+    "role": "marksman",
+    "threat": "Cleanse dan conceal ultimate untuk reposisi; DPS late",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Moskov": {
+    "role": "marksman",
+    "threat": "Dash dan stun ke dinding; serangan menembus target",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3,
+      "engage": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Nana": {
+    "role": "mage",
+    "threat": "Molina polymorph dan passive lolos kematian",
+    "mechanics": {
+      "magicBurst": 1,
+      "hardCC": 3
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Natalia": {
+    "role": "assassin",
+    "threat": "Conceal dan serangan mendadak ke target rapuh",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Natan": {
+    "role": "marksman",
+    "threat": "Serangan magic menembus dan reposisi bayangan",
+    "mechanics": {
+      "basic": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Nolan": {
+    "role": "assassin",
+    "threat": "Dash dan ledakan retakan; reposisi ultimate",
+    "mechanics": {
+      "dive": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Novaria": {
+    "role": "mage",
+    "threat": "Poke jauh, vision dan lintas dinding",
+    "mechanics": {
+      "magicBurst": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Obsidia": {
+    "role": "marksman",
+    "threat": "Stack bone shards, kiting dan tether ultimate",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 1,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Odette": {
+    "role": "mage",
+    "threat": "Channel area dengan burst berulang dan kontrol awal",
+    "mechanics": {
+      "magicDot": 3,
+      "magicBurst": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "magic burst",
+      "magic berulang"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Keluar dari area damage sebelum kembali untuk sustain.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Reposisi keluar zona magic, lalu masuk kembali.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Paquito": {
+    "role": "fighter",
+    "threat": "Dash/pukulan enhanced beruntun dan displacement",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3,
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Pharsa": {
+    "role": "mage",
+    "threat": "Terbang untuk rotasi dan bombardir area dari jauh",
+    "mechanics": {
+      "magicBurst": 1,
+      "hardCC": 2
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Phoveus": {
+    "role": "fighter",
+    "threat": "Lompatan mengejar target dengan kondisi mark/gerak",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Popol and Kupa": {
+    "role": "marksman",
+    "threat": "Kupa, trap immobilize dan mobilitas tunggangan versi revamp",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 2,
+      "shield": 2,
+      "dive": 2,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "REVAMP",
+      "summary": "Kupa sekarang scaling dengan atribut Popol dan regen di luar combat. Skill 1 slow/knockup saat Alpha Wolf; Skill 2 shield + menunggangi Kupa untuk bergerak cepat; trap immobilize lalu area slow; ultimate memperkuat Kupa."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Rafaela": {
+    "role": "support",
+    "threat": "Heal dan movement speed tim; stun garis",
+    "mechanics": {
+      "heal": 2,
+      "hardCC": 2
+    },
+    "mobility": 2,
+    "escape": 0,
+    "setup": 2,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Roger": {
+    "role": "Fighter / Marksman",
+    "threat": "Transformasi dan lunge mengejar target HP rendah",
+    "mechanics": {
+      "basic": 3,
+      "regen": 1
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Ruby": {
+    "role": "fighter",
+    "threat": "Hop pendek berulang dengan tarik dan sustain",
+    "mechanics": {
+      "vamp": 3,
+      "skillPhysical": 2,
+      "regen": 2,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Hero yang sedang dimainkan; bukan slot teman."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Saber": {
+    "role": "assassin",
+    "threat": "Dash dan ultimate airborne target tunggal burst",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.9,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Selena": {
+    "role": "Assassin / Mage",
+    "threat": "Panah stun jauh dan dash ke target bertanda",
+    "mechanics": {
+      "dive": 2,
+      "magicBurst": 3,
+      "hardCC": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "magic burst",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Silvanna": {
+    "role": "fighter",
+    "threat": "Lompatan mengurung target dalam area dan damage berulang",
+    "mechanics": {
+      "skillPhysical": 1,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Sora": {
+    "role": "Fighter / Assassin",
+    "threat": "Mode Thunder/Torrent memberi burst atau tarik menurut data lokal",
+    "mechanics": {
+      "dive": 3,
+      "skillPhysical": 2,
+      "regen": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Hero yang sedang dimainkan; bukan slot teman."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Sun": {
+    "role": "fighter",
+    "threat": "Klon dan dash mengejar target, DPS melee",
+    "mechanics": {
+      "basic": 3,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Suyou": {
+    "role": "Assassin / Fighter",
+    "threat": "Tap/hold mengubah gerak, burst dan kontrol",
+    "mechanics": {
+      "dive": 3,
+      "skillPhysical": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Terizla": {
+    "role": "Fighter / Tank",
+    "threat": "Lompatan ultimate dan tarikan berulang",
+    "mechanics": {
+      "skillPhysical": 2,
+      "regen": 1,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Thamuz": {
+    "role": "fighter",
+    "threat": "Sustain melee dan pengejaran dengan sabit",
+    "mechanics": {
+      "regen": 3,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "basic attack",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Tigreal": {
+    "role": "tank",
+    "threat": "Dorongan, tarikan ultimate dan airborne area",
+    "mechanics": {
+      "engage": 3,
+      "hardCC": 3
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 0.9,
+    "risks": [
+      "kontrol/engage",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Uranus": {
+    "role": "tank",
+    "threat": "Regen dan gerak berulang untuk mengganggu frontline",
+    "mechanics": {
+      "regen": 3,
+      "magicDot": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.9,
+    "risks": [
+      "sustain duel",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "ADJUST",
+      "summary": "Splash basic attack sekarang bertipe magic damage."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Vale": {
+    "role": "mage",
+    "threat": "Knockup dan burst area dari jarak menengah",
+    "mechanics": {
+      "magicBurst": 3,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic burst",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Valentina": {
+    "role": "mage",
+    "threat": "Dash dan fear; ultimate menyalin mekanik hero lain",
+    "mechanics": {
+      "hardCC": 2,
+      "magicBurst": 2,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "magic burst",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Valir": {
+    "role": "mage",
+    "threat": "Knockback, stun stack dan cleanse diri",
+    "mechanics": {
+      "magicDot": 3,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Perlindungan tim memperpanjang siklus skill Ruby. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Dukungan saat masuk dan keluar dari pertarungan. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Vexana": {
+    "role": "mage",
+    "threat": "Fear, burst area dan summon knight airborne",
+    "mechanics": {
+      "magicBurst": 1,
+      "hardCC": 3
+    },
+    "mobility": 0,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Wanwan": {
+    "role": "marksman",
+    "threat": "Hop saat basic attack; ultimate untargetable bersyarat",
+    "mechanics": {
+      "basic": 3,
+      "attackSpeed": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.45,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "X.Borg": {
+    "role": "Fighter",
+    "threat": "Armor terpisah dan api berulang; ultimate ledakan area",
+    "mechanics": {
+      "skillPhysical": 2,
+      "regen": 1
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Xavier": {
+    "role": "mage",
+    "threat": "Kombinasi field immobilize dan laser global",
+    "mechanics": {
+      "magicBurst": 2,
+      "magicDot": 2,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic burst",
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Tahan engage sampai kombo magic lawan keluar. Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Jangan transformasi di depan burst yang masih tersedia. Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": {
+      "version": "2.2.23",
+      "status": "BUFF",
+      "summary": "Skill 1/2 lebih responsif; Mystic Field Skill 2 menghasilkan damage area lebih besar, passive movement speed meningkat; Mystic Barrier tidak lagi memberi damage langsung."
+    },
+    "review": "Perlu audit mekanik patch"
+  },
+  "Yi Sun-shin": {
+    "role": "Assassin / Marksman",
+    "threat": "Pergantian melee/ranged dan vision global",
+    "mechanics": {
+      "dive": 1,
+      "basic": 2
+    },
+    "mobility": 2,
+    "escape": 2,
+    "setup": 1,
+    "peel": 0,
+    "slowFit": 0.9,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Yin": {
+    "role": "Fighter / Assassin",
+    "threat": "Dash dan domain duel mengisolasi hero EXP",
+    "mechanics": {
+      "skillPhysical": 3,
+      "dive": 3,
+      "hardCC": 3
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.65,
+    "risks": [
+      "physical skill",
+      "kontrol/engage",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Pancing skill utama sebelum mendekat dengan dash pasif. Simpan dash dan CC untuk balasan, jangan masuk sendirian. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Masuk setelah kombo fisik lawan terpakai. Tunggu kontrol utama sebelum memulai Torrent atau Thunder. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Yu Zhong": {
+    "role": "fighter",
+    "threat": "Mode naga menembus formasi dan sustain stack",
+    "mechanics": {
+      "regen": 3,
+      "skillPhysical": 2
+    },
+    "mobility": 3,
+    "escape": 3,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 0.65,
+    "risks": [
+      "sustain duel",
+      "physical skill",
+      "mobilitas",
+      "frontline"
+    ],
+    "Ruby": {
+      "response": "Trade pendek, jangan adu pemulihan tanpa antiheal. Pancing skill utama sebelum mendekat dengan dash pasif. Tahan pull untuk titik akhir perpindahan. Manfaatkan target tebal untuk sustain tanpa mengejar terlalu jauh.",
+      "ally": "Bantu tekanan lane dan rotasi setelah Ruby membuka ruang."
+    },
+    "Sora": {
+      "response": "Gunakan burst setelah pemulihan lawan terpakai. Masuk setelah kombo fisik lawan terpakai. Jangan habiskan mobilitas sebelum lawan memakai escape. Jangan buang burst Thunder pada tank jika carry terbuka.",
+      "ally": "Bantu rotasi dan tekanan setelah Sora membuka ruang."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Yve": {
+    "role": "mage",
+    "threat": "Grid ultimate zoning serta slow area jarak jauh",
+    "mechanics": {
+      "magicDot": 3,
+      "hardCC": 1
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Zetian": {
+    "role": "mage",
+    "threat": "Gelombang phoenix dan shield/CC dekat menurut data lokal",
+    "mechanics": {
+      "magicBurst": 1,
+      "shield": 2,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Perlu audit mekanik patch"
+  },
+  "Zhask": {
+    "role": "mage",
+    "threat": "Spawn turret dan transformasi menekan area",
+    "mechanics": {
+      "magicDot": 3,
+      "hardCC": 2
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 2,
+    "peel": 2,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol. Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder. Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Zhuxin": {
+    "role": "mage",
+    "threat": "Stack skill mengangkat dan melempar target",
+    "mechanics": {
+      "magicDot": 2,
+      "hardCC": 3
+    },
+    "mobility": 1,
+    "escape": 2,
+    "setup": 3,
+    "peel": 3,
+    "slowFit": 1,
+    "risks": [
+      "magic berulang",
+      "kontrol/engage"
+    ],
+    "Ruby": {
+      "response": "Keluar dari area damage sebelum kembali untuk sustain. Simpan dash dan CC untuk balasan, jangan masuk sendirian.",
+      "ally": "Rantai CC setelah pull Ruby, jangan tumpang tindih kontrol."
+    },
+    "Sora": {
+      "response": "Reposisi keluar zona magic, lalu masuk kembali. Tunggu kontrol utama sebelum memulai Torrent atau Thunder.",
+      "ally": "Follow-up Torrent atau tahan target sebelum Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  },
+  "Zilong": {
+    "role": "fighter",
+    "threat": "Sprint dan flip target diikuti basic attack cepat",
+    "mechanics": {
+      "basic": 3
+    },
+    "mobility": 3,
+    "escape": 2,
+    "setup": 1,
+    "peel": 1,
+    "slowFit": 0.65,
+    "risks": [
+      "basic attack",
+      "mobilitas"
+    ],
+    "Ruby": {
+      "response": "Putus kontak basic attack dengan tarik dan dash. Tahan pull untuk titik akhir perpindahan.",
+      "ally": "Follow-up damage pada target yang ditarik Ruby."
+    },
+    "Sora": {
+      "response": "Hindari duel basic attack panjang; pakai CC Torrent. Jangan habiskan mobilitas sebelum lawan memakai escape.",
+      "ally": "Habisi target yang dikunci Torrent atau ditekan Thunder."
+    },
+    "patchChange": null,
+    "review": "Profil taktis, belum audit skill lengkap"
+  }
+};
